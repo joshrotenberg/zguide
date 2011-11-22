@@ -21,8 +21,8 @@ import org.zeromq.{ZContext, ZFrame, ZMQ, ZMsg}
 import util.control.Breaks._
 
 /**
- * Majordomo Protocol Client API, Java version Implements the MDP/Worker spec at
- * http://rfc.zeromq.org/spec:7.
+ * Majordomo Protocol Client API, Scala version Implements the MDP/Worker
+ * spec at http://rfc.zeromq.org/spec:7.
  * 
  * @author Josh Rotenberg <joshrotenberg@gmail.com>
  */
