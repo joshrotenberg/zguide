@@ -19,7 +19,7 @@ object mdclient {
     val clientSession:mdcliapi = new mdcliapi("tcp://localhost:5555", verbose)
 
     var done = 0
-    for(i <- 1 to 10) {
+    for(i <- 1 to 100) {
       var request:ZMsg = new ZMsg
       request.addString("Hello world")
       var reply = clientSession.send("echo", request)

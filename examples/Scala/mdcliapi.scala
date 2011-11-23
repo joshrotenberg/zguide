@@ -119,7 +119,6 @@ class mdcliapi(broker:String, verbose:Boolean) {
     reply
   }
   
-
   def destroy = ctx.destroy
 }
 
